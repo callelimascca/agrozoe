@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Agropecuaria Zoe</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        footer {
+            background: #007B33;
+            color: white;
+            padding: 10px 0;
+        }
+        .card {
+            transition: transform 0.2s;
+            margin-bottom: 30px;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .product-title {
+            color: #007B33;
+        }
+        .product-description {
+            color: #555;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 15px;
+            font-size: 2rem; /* Aumentar tamaño de iconos */
+            transition: transform 0.2s; /* Efecto de transición */
+        }
+        .social-icons a:hover {
+            transform: scale(1.2); /* Efecto de hover */
+        }
+    </style>
+</head>
+<body>
+
+<header class="bg-success text-white text-center py-4">
+    <h1>Catálogo de Productos</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Zoe</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container mt-5">
+    <section>
+        <h2 class="text-center mb-4">Nuestros Productos</h2>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Frutas+Frescas" class="card-img-top" alt="Frutas Frescas">
+                    <div class="card-body text-center">
+                        <h5 class="card-title product-title">Frutas Frescas</h5>
+                        <p class="card-text product-description">Manzanas, naranjas, plátanos y más.</p>
+                        <a href="#" class="btn btn-success">Ver Más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Verduras" class="card-img-top" alt="Verduras">
+                    <div class="card-body text-center">
+                        <h5 class="card-title product-title">Verduras</h5>
+                        <p class="card-text product-description">Lechugas, tomates, zanahorias frescas.</p>
+                        <a href="#" class="btn btn-success">Ver Más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Semillas" class="card-img-top" alt="Semillas">
+                    <div class="card-body text-center">
+                        <h5 class="card-title product-title">Semillas</h5>
+                        <p class="card-text product-description">Semillas orgánicas de alta calidad.</p>
+                        <a href="#" class="btn btn-success">Ver Más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Hierbas+Frescas" class="card-img-top" alt="Hierbas Frescas">
+                    <div class="card-body text-center">
+                        <h5 class="card-title product-title">Hierbas Frescas</h5>
+                        <p class="card-text product-description">Albahaca, perejil, cilantro y más.</p>
+                        <a href="#" class="btn btn-success">Ver Más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Productos+Lácteos" class="card-img-top" alt="Productos Lácteos">
+                    <div class="card-body text-center">
+                        <h5 class="card-title product-title">Productos Lácteos</h5>
+                        <p class="card-text product-description">Leche, quesos y yogures frescos.</p>
+                        <a href="#" class="btn btn-success">Ver Más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Huevos+Frescos" class="card-img-top" alt="Huevos Frescos">
+                    <div class="card-body text-center">
+                        <h5 class="card-title product-title">Huevos Frescos</h5>
+                        <p class="card-text product-description">Huevos de gallinas alimentadas con maíz.</p>
+                        <a href="#" class="btn btn-success">Ver Más</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+
+<footer class="text-center">
+    <p>Contáctanos: info@agropecuariazoe.com | Tel: (123) 456-7890</p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
