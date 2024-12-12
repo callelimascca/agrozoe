@@ -16,11 +16,11 @@
             padding: 10px 0;
         }
         .card {
-            transition: transform 0.2s;
+            transition: transform 0.1s;
             margin-bottom: 30px;
         }
         .card:hover {
-            transform: scale(1.05);
+            transform: scale(00.1s);
         }
         .product-title {
             color: #007B33;
@@ -68,7 +68,6 @@
         </div>
     </nav>
 </header>
-
 <div class="container mt-5">
     <section>
         <h2 class="text-center mb-4">Nuestros Productos</h2>
@@ -80,7 +79,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Acarsolt</h5>
                         <p class="card-text product-description">Es un acaricida con acción de contacto, ingestión e inhalación con residualidad prolongada, debido a su alta eficacia en etapas móviles disminuye rápidamente el daño en frutos y hojas.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="window.location.href='detalle_producto.html?producto=Kutta'">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -91,7 +90,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Basacote® Plus 3M</h5>
                         <p class="card-text product-description"> Ideal para plantas ornamentales, viveros, parques y jardines. Y para instalación de frutales en campo definitivo.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Basacote® Plus 3M')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -101,7 +100,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Basfoliar® Líquida</h5>
                         <p class="card-text product-description">Fertilizante complejo en forma líquida, para la fertilización foliar de cultivos intensivos y cultivos de campo.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Basfoliar® Líquida')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -111,7 +110,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">BERETTA</h5>
                         <p class="card-text product-description">Herbicida post emergencia sistémico selectivo para el control gramíneas, se absorbe por vía foliar y transloca a toda la planta.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('BERETTA')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -122,7 +121,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Solt® Fósforo</h5>
                         <p class="card-text product-description">Fertilizante foliar que contiene nitrógeno, fósforo, potasio, ácidos húmicos, aminoácidos y cinc.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Solt® Fósforo')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -133,7 +132,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Impala®</h5>
                         <p class="card-text product-description">Fungicida sistémico, efectivo para el control de hongos como Fusarium y Mildiu y para tratamientos post cosecha en frutos.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Impala®')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -142,9 +141,9 @@
                 <div class="card">
                     <img src="./imagenes/siete.png" class="card-img-top" alt="Herbicida">
                     <div class="card-body text-center">
-                        <h5 class="card-title product-title">Marduk®                        </h5>
+                        <h5 class="card-title product-title">Marduk®</h5>
                         <p class="card-text product-description">Es un herbicida sistémico no selectivo, post emergente y de amplio espectro de control de malezas anuales, y perennes de hoja ancha y angosta (gramíneas y ciperáceas)</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Marduk®')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -154,7 +153,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Vitanica®</h5>
                         <p class="card-text product-description">Es un fertilizante líquido NPK con silicatos y extracto del alga Ecklonia maxima para fortalecer las plantas.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Vitanica®')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -165,7 +164,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Perlhumus® Granulado</h5>
                         <p class="card-text product-description">Es un complejo estable de ácidos húmicos bioactivos, extraídos de materia orgánica altamente oxidada (Leonardita), que actúa como quelato natural.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Perlhumus® Granulado')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -176,7 +175,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Liqhumus</h5>
                         <p class="card-text product-description">Es una suspensión de humato de potasio con un contenido mayor de 20% entre ácidos húmicos bio-activos y ácidos fúlvicos.  </p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Liqhumus')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -186,7 +185,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Blaukorn® classic</h5>
                         <p class="card-text product-description">Fertilizante complejo a base de NPK con sulfato de potasio, magnesio y micronutrientes (sin cloruro de potasio).</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Blaukorn® classic')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -197,7 +196,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Celtha® 247 SC</h5>
                         <p class="card-text product-description">Es una mezcla de dos ingredientes activos con amplio poder residual que actúa tanto sistémicamente como de contacto.  </p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Celtha® 247 SC')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -207,7 +206,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Fetrilon® Combi 1</h5>
                         <p class="card-text product-description">Es un fertilizante de múltiples micronutrientes quelatizados con EDTA y además con magnesio y azufre en su composición.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Fetrilon® Combi 1')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -218,7 +217,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Nitrofoska® 13-10-20</h5>
                         <p class="card-text product-description">Es un fertilizante mineral complejo granulado con tratamiento de superficie para mejorar sus cualidades de transporte y almacenamiento.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Nitrofoska® 13-10-20')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -229,7 +228,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Solt® Trobin</h5>
                         <p class="card-text product-description">Fungicida para aplicaciones preventivas y curativas (sistémico y de contacto) en diversos tipos de hongos que afectan a los frutales y las hortalizas.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Solt® Trobin')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -240,7 +239,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Worker</h5>
                         <p class="card-text product-description">Es un insecticida de acción translaminar con prolongado efecto residual, actúa para el control de ácaros y minadores de hoja en diferentes cultivos frutales y hortícolas.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Worker')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -250,7 +249,7 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Solt® Clean</h5>
                         <p class="card-text product-description">Jabón potásico amínico, biodegradable procedente de ácidos grasos saponificados, eficaz para el lavado de follaje, frutas y hortalizas.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Solt® Clean')">Ver Más</button>
                     </div>
                 </div>
             </div>
@@ -261,12 +260,23 @@
                     <div class="card-body text-center">
                         <h5 class="card-title product-title">Kutta®</h5>
                         <p class="card-text product-description">Fungicida biológico que contiene esporas de Bacillus subtilis a una concentración de 1 X 10 11 CFU/g, en formulación de polvo mojable.</p>
-                        <a href="#" class="btn btn-success">Ver Más</a>
+                        <button class="btn btn-success" onclick="verMas('Kutta®')">Ver Más</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+</div>
+<!-- Modal para mostrar los detalles del producto -->
+<div class="modal" id="productoModal" style="display: none;">
+    <div class="modal-content">
+        <span class="close" onclick="cerrarModal()">&times;</span>
+        <h2 id="modalTitulo">Detalles del Producto</h2>
+        <p id="modalDescripcion">Descripción del producto...</p>
+        <p id="modalPrecio">Precio: $XX.XX</p>
+        <p id="modalCantidad">Cantidad: 1 Litro</p>
+        <p id="modalDosis">Dosis recomendada: 100 ml por 10L</p>
+    </div>
 </div>
 <!-- Sección de descarga PDF -->
 <div class="pdf-download text-center mb-5 p-4">
@@ -289,5 +299,6 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./script.js"></script>
 </body>
 </html>
