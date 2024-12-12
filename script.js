@@ -31,3 +31,5 @@ function cerrarModal() {
         window.location.href = 'catalogo.html'; 
     });
 }
+https://www.agroplaza.pe/producto/sunfire240-sc-x-1lt-ofertas/
+https://soltagro.com/producto/acarsolt/
